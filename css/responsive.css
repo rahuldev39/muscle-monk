@@ -47,7 +47,12 @@
             font-size: 14px;
         }
 }
-
+@media(min-width:768px)
+{
+    .text-md-white{
+        color: white;
+    }
+}
 @media(max-width:768px){
     .container, .container-md, .container-sm {
         max-width: 768px;
