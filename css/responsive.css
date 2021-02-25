@@ -37,14 +37,15 @@
         .tc-block .tc-item{
             background-color: transparent;
         }
+
         .offer-block .icon img {
-            width: 92px;
+            width: 62px;
         }
         .offer-block h1 {
-            font-size: 1.8rem;
+            font-size: 1.3rem;
         }
         .offer-block p{
-            font-size: 14px;
+            font-size: 12px;
         }
 }
 @media(min-width:768px)
@@ -54,10 +55,17 @@
     }
 }
 @media(max-width:768px){
+    .registration-info ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
     .container, .container-md, .container-sm {
         max-width: 768px;
     }
-    
+    .pricing-section {
+        padding: 3rem 0px;
+    }
     .section-title.shadow-text span {
         font-size: 7rem;
     }
@@ -82,12 +90,18 @@
     .registeration-section {
         margin-top: -120px;
     }
+    .title-separator h4 {
+        padding: 10px 22px;
+        font-size: 16px;
+    }
+    .section-title.shadow-text span {
+        top: 0px;
+        line-height: 1;
+    }
 }
 
 @media(max-width:576px){
-    .plan-item.popular {
-        margin-top: 30px;
-    }
+    
     .registration-info-body h1 {
         font-size: 2rem;
     }
@@ -101,5 +115,11 @@
     .join-block h1 img {
         display: block;
         margin: 10px auto;
+    }
+    .tier-item h6 {
+        font-size: 12px;
+    }
+    .section-title.shadow-text span {
+        font-size: 6rem;
     }
 }

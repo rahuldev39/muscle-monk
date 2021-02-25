@@ -3,20 +3,9 @@ body{
     color: black;
     background-color: rgb(237 237 239);
 }
-.form-header{
-    min-height: 136px;
-
-}
+/*################------Utility Classes---------####################*/
 .object-fit-cover{
     object-fit: cover;
-}
-.hero-bg img{
-    min-height: calc(100vh + 136px) ;
-}
-.hero-content{
-    left: 0px;
-    top: 0px;
-    padding-bottom: 250px;
 }
 .font-weight-exbold{
     font-weight: 800 !important;
@@ -24,22 +13,26 @@ body{
 .font-weight-black{
     font-weight: 900 !important;
 }
-.cta-block h6{
-    font-size: 9px;
-}
-.hero-content-inner{
-    max-width: 980px;
-}
-.bg-yellow{
-
-}
 .gradient-primary{
     background: linear-gradient(to bottom, #ffe332 0%,#feb617 100%);
 }
-.form-header h1 {
-    line-height: 1;
+.text-muted{
+    color: #b2b2b2 !important;
+}
+.text-yellow{
+    color: #ffcd29 !important;
+}
+.text-yellow2{
+    color: #ffb129 !important;
+}
+.bg-yellow2{
+    background-color: #ffc112;
+}
+.f-12{
+    font-size: 12px  !important;
 }
 
+/*################------Form Css---------####################*/
 .form-control {
     border: 0px;
     border-bottom: 1px solid #46413c;
@@ -47,11 +40,20 @@ body{
     padding: 0px 0px;
     font-weight: 600;
     font-size: 15px;
+    transition: all ease-out 300ms;
 }
 .form-control::placeholder{
     color: #aeadad;
 }
-
+.form-group{
+    margin-bottom: 1.6rem !important;
+}
+.form-control:focus {
+    color: #000000;
+    border-color: #ffb129;
+    box-shadow: none;
+}
+/*################------Buttons Css---------####################*/
 .btn {
     height: 65px;
     border-radius: 0px;
@@ -61,24 +63,48 @@ body{
     background: linear-gradient(to bottom, #ffe332 0%,#feb617 100%);
     color: black;
 }
-
-.text-muted{
-color: #b2b2b2 !important;
+.btn-dark{
+    background: -webkit-linear-gradient(#020202, #161616);
+    color: #f1d806;
+    
 }
-.text-yellow{
-    color: #ffcd29 !important;
+
+
+
+
+/*################------Hero Section Css---------####################*/
+.hero-bg img{
+    min-height: calc(100vh + 136px) ;
+}
+.hero-content{
+    left: 0px;
+    top: 0px;
+    padding-bottom: 250px;
+}
+.hero-content-inner{
+    max-width: 980px;
+}
+
+
+.cta-block h6{
+    font-size: 9px;
+}
+
+
+/*################------Registration Form Css---------####################*/
+.registeration-section{
+    margin-top: -136px;
+}
+.form-header{
+    min-height: 136px;
+}
+.form-header h1 {
+    line-height: 1;
 }
 .registration-info-header h1{
     font-size: 3.2rem;
     line-height: 1;
     margin-bottom: 3.2rem;
-}
-
-.registeration-section{
-    margin-top: -136px;
-}
-.text-yellow2{
-    color: #ffb129 !important;
 }
 .registration-info-body{
     max-width: 510px;
@@ -86,13 +112,9 @@ color: #b2b2b2 !important;
 .registration-info-body h1{
     line-height: 1;
 }
-.f-12{
-    font-size: 12px  !important;
-}
-.form-group{
-    margin-bottom: 1.6rem !important;
-}
 
+
+/*################------Join Block Css---------####################*/
 .join-block h1 {
     font-size: 3.5rem;
 }
@@ -103,6 +125,8 @@ color: #b2b2b2 !important;
     font-size: 2.5rem;
     line-height: 1;
 }
+
+/*################------Title Separator Css---------####################*/
 .title-separator::after, .title-separator::before{
     height: 2px;
     flex: 1;
@@ -118,6 +142,22 @@ color: #b2b2b2 !important;
     letter-spacing: 1px;
     text-align: center;
 }
+
+
+/*################------Pricing Section Css---------####################*/
+.section-title.shadow-text {
+    padding-top: 65px;
+}
+.section-title.shadow-text span {
+    font-size: 9rem;
+    bottom: 0px;
+    color: #dec700;
+    font-weight: 800;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .pricing-section{
     background-color: #f8df0d;
     background-image: url(../images/pricing-bg.jpg);
@@ -182,12 +222,6 @@ color: #b2b2b2 !important;
     font-weight: 600;
     padding: 10px 5px;
 }
-
-.btn-dark{
-    background: -webkit-linear-gradient(#020202, #161616);
-    color: #f1d806;
-    
-}
 .plan-footer{
     border-top: 2px solid #f8df0d;
 }
@@ -207,21 +241,9 @@ color: #b2b2b2 !important;
     font-size: 14px;
     font-weight: 600;
 }
-.section-title.shadow-text {
-    padding-top: 65px;
-}
-.section-title.shadow-text span {
-    font-size: 9rem;
-    bottom: 0px;
-    color: #dec700;
-    font-weight: 800;
-    text-transform: uppercase;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.bg-yellow2{
-    background-color: #ffc112;
-}
+
+
+/*################------TC Section Css---------####################*/
 .tc-list li {
     border-bottom: 1px solid black;
     margin-bottom: 8px;
