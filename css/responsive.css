@@ -92,5 +92,8 @@
 
 
 @media(max-width:448px){
-    
+    .join-block h1 img {
+        display: block;
+        margin: 10px auto;
+    }
 }
