@@ -31,7 +31,9 @@ body{
 .f-12{
     font-size: 12px  !important;
 }
-
+.text-gray{
+    color: #777777;
+}
 /*################------Form Css---------####################*/
 .form-control {
     border: 0px;
@@ -69,17 +71,14 @@ body{
     
 }
 
-
-
-
 /*################------Hero Section Css---------####################*/
 .hero-bg img{
     min-height: calc(100vh + 136px) ;
 }
-.hero-content{
+.hero-content {
     left: 0px;
     top: 0px;
-    padding-bottom: 250px;
+    padding-bottom: 230px;
 }
 .hero-content-inner{
     max-width: 980px;
