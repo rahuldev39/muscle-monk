@@ -1,127 +1,127 @@
-@media(max-width:1200px){
-    .form-header h1 {
-        font-size: 2rem;
-    }
-    .hero-content {
-        padding-bottom: 190px;
-    }
+@media (max-width: 1200px) {
+  .form-header h1 {
+    font-size: 2rem;
+  }
+  .hero-content {
+    padding-bottom: 190px;
+  }
 }
 
-@media(max-width:992px){
-        .registration-form,.registration-info{
-            max-width: 500px;
-            margin: 0 auto;
-        }
-        .form-header h1 {
-            font-size: 2.7rem;
-        }
-        .hero-bg img {
-            min-height: 100vh;
-        }
-        .registration-info-header h1 {
-            color: black !important;
-            border-bottom: 1px solid #dee2e6!important;
-            padding-bottom: 2rem;
-            margin-bottom: 2rem;
-        }
-        .join-block h1 {
-            font-size: 2.5rem;
-        }
-        .join-block h1 img {
-            width: 110px;
-        }
-        .join-block p, .registration-info-body h1 {
-            font-size: 1.7rem;
-            line-height: 1.2;
-        }
-        
-        .registration-info-header h1 {
-            font-size: 2.8rem;
-        }
-        .tc-block .tc-item{
-            background-color: transparent;
-        }
+@media (max-width: 992px) {
+  .registration-form,
+  .registration-info {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .form-header h1 {
+    font-size: 2.7rem;
+  }
+  .hero-bg img {
+    min-height: 100vh;
+  }
+  .registration-info-header h1 {
+    color: black !important;
+    border-bottom: 1px solid #dee2e6 !important;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  .join-block h1 {
+    font-size: 2.5rem;
+  }
+  .join-block h1 img {
+    width: 110px;
+  }
+  .join-block p,
+  .registration-info-body h1 {
+    font-size: 1.7rem;
+    line-height: 1.2;
+  }
 
-        .offer-block .icon img {
-            width: 75px;
-        }
-        .offer-block h1 {
-            font-size: 1.8rem;
-        }
-        .offer-block p{
-            font-size: 12px;
-        }
-}
-@media(min-width:768px)
-{
-    .text-md-white{
-        color: white;
-    }
-}
-@media(max-width:768px){
-    .registration-info ul{
-        list-style-type: none;
-        padding: 0px;
-        margin: 0px;
-    }
-    .container, .container-md, .container-sm {
-        max-width: 768px;
-    }
-    .pricing-section {
-        padding: 3rem 0px;
-    }
-    .section-title.shadow-text span {
-        font-size: 7rem;
-    }
-    .hero-content-inner p{
-        font-size: 14px;
-    }
-    .hero-content {
-        padding-bottom: 137px;
-    }
-    .join-block h1 {
-        font-size: 2rem;
-    }
-    .join-block h1 img {
-        width: 76px;
-    }
-    .form-header h1 {
-        font-size: 2rem;
-    }
-    .form-header {
-        min-height: auto;
-    }
-    .registeration-section {
-        margin-top: -120px;
-    }
-    .title-separator h4 {
-        padding: 10px 22px;
-        font-size: 16px;
-    }
-    .section-title.shadow-text span {
-        top: 0px;
-        line-height: 1;
-    }
-}
+  .registration-info-header h1 {
+    font-size: 2.8rem;
+  }
+  .tc-block .tc-item {
+    background-color: transparent;
+  }
 
-@media(max-width:576px){
-    
-    .plan-footer .btn {
-        font-size: 11px;
-    }
-    
+  .offer-block .icon img {
+    width: 75px;
+  }
+  .offer-block h1 {
+    font-size: 1.8rem;
+  }
+  .offer-block p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .text-md-white {
+    color: white;
+  }
+}
+@media (max-width: 768px) {
+  .registration-info ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 768px;
+  }
+  .pricing-section {
+    padding: 3rem 0px;
+  }
+  .section-title.shadow-text span {
+    font-size: 7rem;
+  }
+  .hero-content-inner p {
+    font-size: 14px;
+  }
+  .hero-content {
+    padding-bottom: 137px;
+  }
+  .join-block h1 {
+    font-size: 2rem;
+  }
+  .join-block h1 img {
+    width: 76px;
+  }
+  .form-header h1 {
+    font-size: 2rem;
+  }
+  .form-header {
+    min-height: auto;
+  }
+  .registeration-section {
+    margin-top: -120px;
+  }
+  .title-separator h4 {
+    padding: 10px 22px;
+    font-size: 16px;
+  }
+  .section-title.shadow-text span {
+    top: 0px;
+    line-height: 1;
+  }
 }
 
+@media (max-width: 576px) {
+  .plan-footer .btn {
+    font-size: 11px;
+  }
+}
 
-@media(max-width:448px){
-    .join-block h1 img {
-        display: block;
-        margin: 10px auto;
-    }
-    .tier-item h6 {
-        font-size: 12px;
-    }
-    .section-title.shadow-text span {
-        font-size: 6rem;
-    }
+@media (max-width: 448px) {
+  .join-block h1 img {
+    display: block;
+    margin: 10px auto;
+  }
+  .tier-item h6 {
+    font-size: 12px;
+  }
+  .section-title.shadow-text span {
+    font-size: 6rem;
+  }
 }

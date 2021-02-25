@@ -1,262 +1,260 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    background-color: rgb(237 237 239);
+body {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  background-color: rgb(237 237 239);
 }
 /*################------Utility Classes---------####################*/
-.object-fit-cover{
-    object-fit: cover;
+.object-fit-cover {
+  object-fit: cover;
 }
-.font-weight-exbold{
-    font-weight: 800 !important;
+.font-weight-exbold {
+  font-weight: 800 !important;
 }
-.font-weight-black{
-    font-weight: 900 !important;
+.font-weight-black {
+  font-weight: 900 !important;
 }
-.gradient-primary{
-    background: linear-gradient(to bottom, #ffe332 0%,#feb617 100%);
+.gradient-primary {
+  background: linear-gradient(to bottom, #ffe332 0%, #feb617 100%);
 }
-.text-muted{
-    color: #b2b2b2 !important;
+.text-muted {
+  color: #b2b2b2 !important;
 }
-.text-yellow{
-    color: #ffcd29 !important;
+.text-yellow {
+  color: #ffcd29 !important;
 }
-.text-yellow2{
-    color: #ffb129 !important;
+.text-yellow2 {
+  color: #ffb129 !important;
 }
-.bg-yellow2{
-    background-color: #ffc112;
+.bg-yellow2 {
+  background-color: #ffc112;
 }
-.f-12{
-    font-size: 12px  !important;
+.f-12 {
+  font-size: 12px !important;
 }
-.text-gray{
-    color: #777777;
+.text-gray {
+  color: #777777;
 }
 /*################------Form Css---------####################*/
 .form-control {
-    border: 0px;
-    border-bottom: 1px solid #46413c;
-    border-radius: 0px;
-    padding: 0px 0px;
-    font-weight: 600;
-    font-size: 15px;
-    transition: all ease-out 300ms;
+  border: 0px;
+  border-bottom: 1px solid #46413c;
+  border-radius: 0px;
+  padding: 0px 0px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all ease-out 300ms;
 }
-.form-control::placeholder{
-    color: #aeadad;
+.form-control::placeholder {
+  color: #aeadad;
 }
-.form-group{
-    margin-bottom: 1.6rem !important;
+.form-group {
+  margin-bottom: 1.6rem !important;
 }
 .form-control:focus {
-    color: #000000;
-    border-color: #ffb129;
-    box-shadow: none;
+  color: #000000;
+  border-color: #ffb129;
+  box-shadow: none;
 }
 /*################------Buttons Css---------####################*/
 .btn {
-    height: 65px;
-    border-radius: 0px;
-    font-weight: 800;
+  height: 65px;
+  border-radius: 0px;
+  font-weight: 800;
 }
-.btn-gradient-yellow{
-    background: linear-gradient(to bottom, #ffe332 0%,#feb617 100%);
-    color: black;
+.btn-gradient-yellow {
+  background: linear-gradient(to bottom, #ffe332 0%, #feb617 100%);
+  color: black;
 }
-.btn-dark{
-    background: -webkit-linear-gradient(#020202, #161616);
-    color: #f1d806;
-    
+.btn-dark {
+  background: -webkit-linear-gradient(#020202, #161616);
+  color: #f1d806;
 }
 
 /*################------Hero Section Css---------####################*/
-.hero-bg img{
-    min-height: calc(100vh + 136px) ;
+.hero-bg img {
+  min-height: calc(100vh + 136px);
 }
 .hero-content {
-    left: 0px;
-    top: 0px;
-    padding-bottom: 230px;
+  left: 0px;
+  top: 0px;
+  padding-bottom: 230px;
 }
-.hero-content-inner{
-    max-width: 980px;
-}
-
-
-.cta-block h6{
-    font-size: 9px;
+.hero-content-inner {
+  max-width: 980px;
 }
 
+.cta-block h6 {
+  font-size: 9px;
+}
 
 /*################------Registration Form Css---------####################*/
-.registeration-section{
-    margin-top: -136px;
+.registeration-section {
+  margin-top: -136px;
 }
-.form-header{
-    min-height: 136px;
+.form-header {
+  min-height: 136px;
 }
 .form-header h1 {
-    line-height: 1;
+  line-height: 1;
 }
-.registration-info-header h1{
-    font-size: 3.2rem;
-    line-height: 1;
-    margin-bottom: 3.2rem;
+.registration-info-header h1 {
+  font-size: 3.2rem;
+  line-height: 1;
+  margin-bottom: 3.2rem;
 }
-.registration-info-body{
-    max-width: 510px;
+.registration-info-body {
+  max-width: 510px;
 }
-.registration-info-body h1{
-    line-height: 1;
+.registration-info-body h1 {
+  line-height: 1;
 }
-
 
 /*################------Join Block Css---------####################*/
 .join-block h1 {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 .join-block h1 img {
-    width: 150px;
+  width: 150px;
 }
-.join-block p{
-    font-size: 2.5rem;
-    line-height: 1;
+.join-block p {
+  font-size: 2.5rem;
+  line-height: 1;
 }
 
 /*################------Title Separator Css---------####################*/
-.title-separator::after, .title-separator::before{
-    height: 2px;
-    flex: 1;
-    content: "";
-    background-color:#ffb129;
+.title-separator::after,
+.title-separator::before {
+  height: 2px;
+  flex: 1;
+  content: "";
+  background-color: #ffb129;
 }
 .title-separator h4 {
-    background-color: black;
-    color: white;
-    padding: 10px 38px;
-    margin: 0px 8px;
-    border-radius: 40px;
-    letter-spacing: 1px;
-    text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px 38px;
+  margin: 0px 8px;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  text-align: center;
 }
-
 
 /*################------Pricing Section Css---------####################*/
 .section-title.shadow-text {
-    padding-top: 65px;
+  padding-top: 65px;
 }
 .section-title.shadow-text span {
-    font-size: 9rem;
-    bottom: 0px;
-    color: #dec700;
-    font-weight: 800;
-    text-transform: uppercase;
-    left: 50%;
-    transform: translateX(-50%);
+  font-size: 9rem;
+  bottom: 0px;
+  color: #dec700;
+  font-weight: 800;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.pricing-section{
-    background-color: #f8df0d;
-    background-image: url(../images/pricing-bg.jpg);
-    background-size: cover;
-    padding: 5rem 0px;
+.pricing-section {
+  background-color: #f8df0d;
+  background-image: url(../images/pricing-bg.jpg);
+  background-size: cover;
+  padding: 5rem 0px;
 }
-.plan-header{
+.plan-header {
     min-height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(../images/pricing-hedaer-bg.png);
     background-size: cover;
-}
-.plan-1 .plan-header{
-    background-color: #0e0e0f;
-}
-.plan-2 .plan-header{
-    background-color: #e6e3dc;
-}
-.plan-3 .plan-header{
-    background-color: #5e4911;  
-}
-.plan-4 .plan-header{
-    background-color: #4e3a31;
-}
-.plan-header h4 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 0px;
-}
-.plan-1 .plan-header h4{
-    background: -webkit-linear-gradient(#e9bf37, #826e2f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.plan-4 .plan-header h4{
-    background: -webkit-linear-gradient(#ffd700, #edb204);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.plan-points {
-    margin: 0px;
-    font-size: 12px;
-    font-weight: 500;
-}
-.plan-points li {
-    border-bottom: 1px solid #f2f2f2;
-    padding: 10px 15px;
-}
-.plan-points li:last-child{
-    border-bottom: 0px;
-}
-.plan-points li p {
-    margin-bottom: 5px;
-}
-.plan-exclusive h4 {
-    background: -webkit-linear-gradient(#e7bd36, #c69a24);
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 600;
-    padding: 10px 5px;
-}
-.plan-footer{
-    border-top: 2px solid #f8df0d;
-}
-.plan-footer .btn {
-    font-size: 14px;
-    height: 55px;
-}
-.plan-item.popular::before {
-    content: "Most Popular";
-    position: absolute;
-    width: 100%;
-    background: -webkit-linear-gradient(#6e0d00, #c40100);
-    left: 0px;
-    bottom: 100%;
-    color: white;
-    padding: 5px 0px;
-    font-size: 14px;
-    font-weight: 600;
+    position: relative;
+    background-blend-mode: exclusion;
 }
 
+.plan-1 .plan-header {
+  background-color: #0e0e0f;
+}
+.plan-2 .plan-header {
+  background-color: #e6e3dc;
+}
+.plan-3 .plan-header {
+  background-color: #5e4911;
+}
+.plan-4 .plan-header {
+  background-color: #4e3a31;
+}
+.plan-header h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.plan-1 .plan-header h4 {
+  background: -webkit-linear-gradient(#e9bf37, #826e2f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.plan-4 .plan-header h4 {
+  background: -webkit-linear-gradient(#ffd700, #edb204);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.plan-points {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.plan-points li {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 10px 15px;
+}
+.plan-points li:last-child {
+  border-bottom: 0px;
+}
+.plan-points li p {
+  margin-bottom: 5px;
+}
+.plan-exclusive h4 {
+  background: -webkit-linear-gradient(#e7bd36, #c69a24);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 5px;
+}
+.plan-footer {
+  border-top: 2px solid #f8df0d;
+}
+.plan-footer .btn {
+  font-size: 14px;
+  height: 55px;
+}
+.plan-item.popular::before {
+  content: "Most Popular";
+  position: absolute;
+  width: 100%;
+  background: -webkit-linear-gradient(#6e0d00, #c40100);
+  left: 0px;
+  bottom: 100%;
+  color: white;
+  padding: 5px 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
 
 /*################------TC Section Css---------####################*/
 .tc-list li {
-    border-bottom: 1px solid black;
-    margin-bottom: 8px;
+  border-bottom: 1px solid black;
+  margin-bottom: 8px;
 }
-.tc-list li p{
-    margin-bottom: 5px;
+.tc-list li p {
+  margin-bottom: 5px;
 }
-.tc-list li:last-child{
-    border-bottom: 0px;
-    margin-bottom: 0px;
+.tc-list li:last-child {
+  border-bottom: 0px;
+  margin-bottom: 0px;
 }
-.tc-item h3{
-    line-height: 1;
+.tc-item h3 {
+  line-height: 1;
 }
-.tc-block{
-    max-width: 950px;
+.tc-block {
+  max-width: 950px;
 }
