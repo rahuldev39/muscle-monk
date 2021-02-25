@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     color: black;
+    background-color: rgb(237 237 239);
 }
 .form-header{
     min-height: 136px;
@@ -185,6 +186,7 @@ color: #b2b2b2 !important;
 .btn-dark{
     background: -webkit-linear-gradient(#020202, #161616);
     color: #f1d806;
+    
 }
 .plan-footer{
     border-top: 2px solid #f8df0d;
