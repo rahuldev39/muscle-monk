@@ -57,9 +57,7 @@
     .container, .container-md, .container-sm {
         max-width: 768px;
     }
-    .plan-item.popular {
-        margin-top: 30px;
-    }
+    
     .section-title.shadow-text span {
         font-size: 7rem;
     }
@@ -87,6 +85,9 @@
 }
 
 @media(max-width:576px){
+    .plan-item.popular {
+        margin-top: 30px;
+    }
     .registration-info-body h1 {
         font-size: 2rem;
     }
