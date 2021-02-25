@@ -2,7 +2,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
+.form-header{
+    min-height: 136px;
 
+}
 .object-fit-cover{
     object-fit: cover;
 }
@@ -112,6 +115,7 @@ color: #b2b2b2 !important;
     margin: 0px 8px;
     border-radius: 40px;
     letter-spacing: 1px;
+    text-align: center;
 }
 .pricing-section{
     background-color: #f8df0d;
@@ -187,6 +191,7 @@ color: #b2b2b2 !important;
 }
 .plan-footer .btn {
     font-size: 14px;
+    height: 55px;
 }
 .plan-item.popular::before {
     content: "Most Popular";

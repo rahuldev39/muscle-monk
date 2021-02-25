@@ -1,0 +1,96 @@
+@media(max-width:1200px){
+    .form-header h1 {
+        font-size: 2rem;
+    }
+    .hero-content {
+        padding-bottom: 190px;
+    }
+}
+
+@media(max-width:992px){
+        .registration-form,.registration-info{
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .form-header h1 {
+            font-size: 2.7rem;
+        }
+        .hero-bg img {
+            min-height: 100vh;
+        }
+        .registration-info-header h1 {
+            color: black !important;
+            border-bottom: 1px solid #dee2e6!important;
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+        .join-block h1 {
+            font-size: 2.5rem;
+        }
+        .join-block h1 img {
+            width: 110px;
+        }
+        .join-block p {
+            font-size: 2rem;
+            line-height: 1;
+        }
+        .tc-block .tc-item{
+            background-color: white;
+        }
+        .offer-block .icon img {
+            width: 92px;
+        }
+        .offer-block h1 {
+            font-size: 1.8rem;
+        }
+        .offer-block p{
+            font-size: 14px;
+        }
+}
+
+@media(max-width:768px){
+    .container, .container-md, .container-sm {
+        max-width: 768px;
+    }
+    .plan-item.popular {
+        margin-top: 30px;
+    }
+    .section-title.shadow-text span {
+        font-size: 7rem;
+    }
+    .hero-content-inner p{
+        font-size: 14px;
+    }
+    .hero-content {
+        padding-bottom: 137px;
+    }
+    .join-block h1 {
+        font-size: 2rem;
+    }
+    .join-block h1 img {
+        width: 76px;
+    }
+    .form-header h1 {
+        font-size: 2rem;
+    }
+    .form-header {
+        min-height: auto;
+    }
+    .registeration-section {
+        margin-top: -120px;
+    }
+}
+
+@media(max-width:576px){
+    .registration-info-body h1 {
+        font-size: 2rem;
+    }
+    .registration-info-header h1 {
+        font-size: 2.8rem;
+    }
+}
+
+
+@media(max-width:448px){
+    
+}
