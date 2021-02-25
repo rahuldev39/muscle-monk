@@ -31,8 +31,14 @@
             width: 110px;
         }
         .join-block p {
-            font-size: 2rem;
+            font-size: 1.7rem;
             line-height: 1;
+        }
+        .registration-info-body h1 {
+            font-size: 1.8rem;
+        }
+        .registration-info-header h1 {
+            font-size: 2.8rem;
         }
         .tc-block .tc-item{
             background-color: transparent;
@@ -102,12 +108,10 @@
 
 @media(max-width:576px){
     
-    .registration-info-body h1 {
-        font-size: 2rem;
+    .plan-footer .btn {
+        font-size: 11px;
     }
-    .registration-info-header h1 {
-        font-size: 2.8rem;
-    }
+    
 }
 
 
