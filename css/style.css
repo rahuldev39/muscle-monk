@@ -141,16 +141,18 @@ body {
 
 /*################------Pricing Section Css---------####################*/
 .section-title.shadow-text {
-  padding-top: 65px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 .section-title.shadow-text span {
-  font-size: 9rem;
-  bottom: 0px;
-  color: #dec700;
-  font-weight: 800;
-  text-transform: uppercase;
-  left: 50%;
-  transform: translateX(-50%);
+    bottom: 0px;
+    font-size: 6.2rem;
+    color: #dec700;
+    font-weight: 800;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1;
 }
 
 .pricing-section {
